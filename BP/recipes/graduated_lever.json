@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "vc:graduated_lever"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:lever"
+			},
+			{
+				"item": "minecraft:redstone"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:lever"
+			},
+			{
+				"item": "minecraft:redstone"
+			}
+		],
+		"result": {
+			"item": "vc:graduated_lever",
+			"count": 1
+		}
+	}
+}

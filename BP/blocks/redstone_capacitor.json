@@ -1,0 +1,299 @@
+{
+	"format_version": "1.26.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vc:redstone_capacitor",
+			"menu_category": {
+				"category": "items"
+			},
+			"states": {
+				"vc:status": ["idle", "charging", "charged", "discharging"],
+				"vc:charge": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+				"vc:strength": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 4
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:geometry": "geometry.redstone_capacitor",
+			"minecraft:redstone_producer": {
+				"power": 0,
+				"transform_relative": true, "connected_faces": ["north"],
+				"strongly_powered_face": "north"
+			},
+			"minecraft:tick": {
+				"interval_range": [5,5],
+				"looping": true
+			},
+			"vc:redstone_capacitor": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "vc_redstone_capacitor",
+					"render_method": "alpha_test_single_sided"
+				}
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 2, 16 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 2, 16 ]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('vc:status') == 'idle'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "vc_redstone_capacitor",
+							"render_method": "alpha_test_single_sided"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') == 'charging'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "vc_redstone_capacitor_charging",
+							"render_method": "alpha_test_single_sided"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') == 'discharging'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "vc_redstone_capacitor_discharge",
+							"render_method": "alpha_test_single_sided"
+						},
+						"glow": {
+							"texture": "vc_redstone_capacitor_discharge",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test_single_sided"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') == 'charged'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "vc_redstone_capacitor_charged",
+							"render_method": "alpha_test_single_sided"
+						},
+						"glow": {
+							"texture": "vc_redstone_capacitor_charged",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test_single_sided"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 0",
+				"components": {
+					"minecraft:redstone_producer": { "power": 0, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 1",
+				"components": {
+					"minecraft:redstone_producer": { "power": 1, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 2",
+				"components": {
+					"minecraft:redstone_producer": { "power": 2, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 3",
+				"components": {
+					"minecraft:redstone_producer": { "power": 3, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 4",
+				"components": {
+					"minecraft:redstone_producer": { "power": 4, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 5",
+				"components": {
+					"minecraft:redstone_producer": { "power": 5, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 6",
+				"components": {
+					"minecraft:redstone_producer": { "power": 6, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 7",
+				"components": {
+					"minecraft:redstone_producer": { "power": 7, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 8",
+				"components": {
+					"minecraft:redstone_producer": { "power": 8, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 9",
+				"components": {
+					"minecraft:redstone_producer": { "power": 9, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 10",
+				"components": {
+					"minecraft:redstone_producer": { "power": 10, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 11",
+				"components": {
+					"minecraft:redstone_producer": { "power": 11, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 12",
+				"components": {
+					"minecraft:redstone_producer": { "power": 12, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 13",
+				"components": {
+					"minecraft:redstone_producer": { "power": 13, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 14",
+				"components": {
+					"minecraft:redstone_producer": { "power": 14, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('vc:status') != 'charging' && query.block_state('vc:strength') == 15",
+				"components": {
+					"minecraft:redstone_producer": { "power": 15, "transform_relative": true, "connected_faces": ["north"], "strongly_powered_face": "north" }
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'up'",
+				"components": {
+					"minecraft:geometry": "geometry.redstone_link_floor",
+					"minecraft:collision_box": {
+						"origin": [ -6, 0, -6 ],
+						"size": [ 12, 3, 12 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -6, 0, -6 ],
+						"size": [ 12, 3, 12 ]
+					},
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'down'",
+				"components": {
+					"minecraft:geometry": "geometry.redstone_link_floor",
+					"minecraft:collision_box": {
+						"origin": [ -6, 0, -6 ],
+						"size": [ 12, 3, 12 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -6, 0, -6 ],
+						"size": [ 12, 3, 12 ]
+					},
+					"minecraft:transformation": {
+						"rotation": [
+							180,
+							0,
+							0
+						]
+					}
+				}
+			}
+		]
+	}
+}

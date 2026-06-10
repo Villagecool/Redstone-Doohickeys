@@ -1,0 +1,23 @@
+/*{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "vc:link_item_display",
+      "materials": {
+        "default": "villager_v2"
+      },
+      "textures": {
+        "default": "textures/blocks/glass"
+      },
+      "scripts": {
+        "scale": "0.5"
+      },
+      "geometry": {
+        "default": "geometry.link_item_display"
+      },
+      "render_controllers": [
+        "controller.render.zombie"
+      ]
+    }
+  }
+}*/

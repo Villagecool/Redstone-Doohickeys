@@ -1,0 +1,11 @@
+trans.freqcheck=Frequency is
+trans.freqset=Frequency set to
+trans.mode.rec=Now Receiving
+trans.mode.trans=Now Transmitting
+subtitle.redstone_link.switch=Redstone link calibrates
+
+tile.vc:redstone_link_transmitter.name=Redstone Link
+tile.vc:redstone_link_reciever.name=Redstone Link
+tile.vc:graduated_lever.name=Graduated Lever
+tile.vc:dimmable_redstone_lamp.name=Dimmable Redstone Lamp
+tile.vc:redstone_capacitor.name=Redstone Capacitor

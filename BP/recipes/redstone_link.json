@@ -1,0 +1,42 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vc:redstone_link"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"C": {
+				"item": "minecraft:copper_ingot"
+			},
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"A": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"T": {
+				"item": "minecraft:redstone_torch"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:redstone"
+			},
+			{
+				"item": "minecraft:amethyst_shard"
+			}
+		],
+		"pattern": [
+			"A T",
+			"CRC",
+			"CRC"
+		],
+		"result": {
+			"item": "vc:redstone_link_transmitter",
+			"count": 1
+		}
+	}
+}

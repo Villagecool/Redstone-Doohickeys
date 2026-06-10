@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "vc:dimmable_redstone_lamp"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "vc:graduated_lever"
+			},
+			{
+				"item": "minecraft:redstone_lamp"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:redstone_lamp"
+			}
+		],
+		"result": {
+			"item": "vc:dimmable_redstone_lamp",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Wireless Redstone",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"vc_redstone_link": {
+			"textures": "textures/blocks/redstone_link"
+		},
+		"vc_redstone_link_off": {
+			"textures": "textures/blocks/redstone_link_off"
+		},
+		"vc_graduated_lever": {
+			"textures": "textures/blocks/graduated_lever"
+		},
+		"vc_graduated_lever_off": {
+			"textures": "textures/blocks/graduated_lever_off"
+		},
+		"vc_dimmable_redstone_lamp_0": {
+			"textures": "textures/blocks/dimmable_redstone_lamp_0"
+		},
+		"vc_dimmable_redstone_lamp_1": {
+			"textures": "textures/blocks/dimmable_redstone_lamp_1"
+		},
+		"vc_dimmable_redstone_lamp_2": {
+			"textures": "textures/blocks/dimmable_redstone_lamp_2"
+		},
+		"vc_dimmable_redstone_lamp_3": {
+			"textures": "textures/blocks/dimmable_redstone_lamp_3"
+		},
+		"vc_redstone_capacitor": {
+			"textures": "textures/blocks/redstone_capacitor"
+		},
+		"vc_redstone_capacitor_charging": {
+			"textures": "textures/blocks/redstone_capacitor_charging"
+		},
+		"vc_redstone_capacitor_charged": {
+			"textures": "textures/blocks/redstone_capacitor_charged"
+		},
+		"vc_redstone_capacitor_discharge": {
+			"textures": "textures/blocks/redstone_capacitor_discharge"
+		}
+	}
+}

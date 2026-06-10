@@ -1,0 +1,15 @@
+{
+	"resource_pack_name": "Wireless Redstone",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"vc_graduated_lever": {
+			"textures": "textures/items/graduated_lever"
+		},
+		"vc_redstone_link": {
+			"textures": "textures/items/redstone_link"
+		},
+		"vc_redstone_capacitor": {
+			"textures": "textures/items/redstone_capacitor"
+		}
+	}
+}

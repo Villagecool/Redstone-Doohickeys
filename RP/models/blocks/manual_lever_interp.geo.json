@@ -1,0 +1,8229 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-45.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										0
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										4
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										2
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										2
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-39.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										1
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										5
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										3
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										3
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-33.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										1
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										5
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										3
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										3
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_3",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-27.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										2
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										6
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										4
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										4
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_4",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-21.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										3
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										7
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										5
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										5
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_5",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-15.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										4
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										6
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										6
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_6",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-9.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										4
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										6
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										6
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_7",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						-3.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										5
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										9
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										7
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										7
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_8",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						3.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										6
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										10
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_9",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						9.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										7
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										11
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										9
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										9
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_10",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						15.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										7
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										11
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										9
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										9
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_11",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						21.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										12
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										10
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										10
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_12",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						27.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										9
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										13
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										11
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										11
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_13",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						33.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										10
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										14
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										12
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										12
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_14",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						39.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										10
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										14
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										12
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										12
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.manual_lever_15",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						-1,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								4,
+								5
+							],
+							"size": [
+								6,
+								8,
+								3
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"east": {
+									"uv": [
+										15,
+										8
+									],
+									"uv_size": [
+										-3,
+										8
+									]
+								},
+								"south": {
+									"uv": [
+										6,
+										8
+									],
+									"uv_size": [
+										6,
+										8
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										3,
+										8
+									]
+								},
+								"up": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									],
+									"uv_rotation": 180
+								},
+								"down": {
+									"uv": [
+										6,
+										3
+									],
+									"uv_size": [
+										-6,
+										-3
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lever",
+					"parent": "root",
+					"pivot": [
+						0,
+						8,
+						6
+					],
+					"rotation": [
+						45.0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								7,
+								-2
+							],
+							"size": [
+								2,
+								2,
+								8
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"east": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										2,
+										8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										2,
+										2
+									],
+									"material_instance": "glow"
+								},
+								"west": {
+									"uv": [
+										7,
+										8
+									],
+									"uv_size": [
+										2,
+										-8
+									],
+									"uv_rotation": 90,
+									"material_instance": "glow"
+								},
+								"up": {
+									"uv": [
+										9,
+										8
+									],
+									"uv_size": [
+										-2,
+										-8
+									],
+									"material_instance": "glow"
+								},
+								"down": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										-2,
+										8
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-180
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								0,
+								-90
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								-90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								1.5,
+								6.5,
+								-2.5
+							],
+							"size": [
+								0,
+								3,
+								3
+							],
+							"pivot": [
+								0,
+								8,
+								-1
+							],
+							"rotation": [
+								0,
+								90,
+								0
+							],
+							"uv": {
+								"east": {
+									"uv": [
+										9,
+										0
+									],
+									"uv_size": [
+										3,
+										3
+									],
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "color",
+					"parent": "root",
+					"pivot": [
+						0,
+						5,
+						6
+					],
+					"cubes": [
+						{
+							"origin": [
+								0,
+								5,
+								5
+							],
+							"size": [
+								1,
+								4,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										11
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-2,
+								5,
+								5.1
+							],
+							"size": [
+								4,
+								6,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										15
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								-1,
+								5,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										13
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						},
+						{
+							"origin": [
+								0,
+								9,
+								5
+							],
+							"size": [
+								1,
+								1,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										13
+									],
+									"uv_size": [
+										1,
+										1
+									],
+									"uv_rotation": 180,
+									"material_instance": "glow"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

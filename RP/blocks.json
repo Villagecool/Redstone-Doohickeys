@@ -1,0 +1,18 @@
+{
+	"format_version": [1, 1, 0],
+	"graduated_lever": {
+		"sound": "stone"
+	},
+	"dimmable_redstone_lamp": {
+		"sound": "glass"
+	},
+	"redstone_link_reciever": {
+		"sound": "itemframe"
+	},
+	"redstone_link_transmitter": {
+		"sound": "itemframe"
+	},
+	"redstone_capacitor": {
+		"sound": "wood"
+	}
+}

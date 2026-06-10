@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Vlliage"
+		]
+	},
+	"header": {
+		"name": "Redstone Doohickeys: Wireless",
+		"description": "By: §2Vlliage :3",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "5ab5f818-2818-475b-b5de-31ca14b5bcbe",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "518823e6-1eda-464d-b9c5-aa9d9060f382",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js",
+			"uuid": "aa649f58-6967-41d6-b239-f4b4b07f64be"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.3.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	]
+}

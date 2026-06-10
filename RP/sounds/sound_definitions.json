@@ -1,0 +1,19 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"redstone_link.switch.transmitter": {
+			"category": "block",
+			"subtitle": "subtitle.redstone_link.switch",
+			"sounds": [
+				"sounds/blocks/redstone_link/transmitter_mode"
+			]
+		},
+		"redstone_link.switch.reciever": {
+			"category": "block",
+			"subtitle": "subtitle.redstone_link.switch",
+			"sounds": [
+				"sounds/blocks/redstone_link/reciever_mode"
+			]
+		}
+	}
+}
