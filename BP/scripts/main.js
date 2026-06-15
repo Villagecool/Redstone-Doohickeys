@@ -1,6 +1,6 @@
 import * as SERVER from '@minecraft/server';
 import * as UI from '@minecraft/server-ui';
-import { getRandomInt, lerp, offsetLocation, setPermutation, clamp, vec3toString, getRandomFloat } from "./utils.js"
+import { getRandomInt, lerp, offsetLocation, setPermutation, clamp, vec3toString, getRandomFloat, roundTo } from "./utils.js"
 
 SERVER.system.beforeEvents.startup.subscribe(initEvent => {
     initEvent.blockComponentRegistry.registerCustomComponent('vc:graduated_lever', {
@@ -158,6 +158,15 @@ SERVER.system.afterEvents.scriptEventReceive.subscribe(e=>{
     if (e.id == 'vc:grs') {
         SERVER.world.sendMessage(JSON.stringify(SERVER.world.getDynamicProperty('vc:transmitters')))
         //SERVER.world.sendMessage(JSON.stringify(locfrequencies()))
+    }
+    if (e.id === "vc:camera") {
+        const entity = e.sourceEntity //idk why this is the original way I wrote it
+
+        if (e.message == 'break')
+            entity.runCommand(`camera @s clear`)
+        else
+            console.log(`camera @a set minecraft:free pos ${roundTo(entity.getHeadLocation().x,100)} ${roundTo(entity.getHeadLocation().y,100)} ${roundTo(entity.getHeadLocation().z,100)} rot ${roundTo(entity.getRotation().x,100)} ${roundTo(entity.getRotation().y,100)}`)
+            entity.runCommand(`camera @s set minecraft:free pos ${roundTo(entity.getHeadLocation().x,100)} ${roundTo(entity.getHeadLocation().y,100)} ${roundTo(entity.getHeadLocation().z,100)} rot ${roundTo(entity.getRotation().x,100)} ${roundTo(entity.getRotation().y,100)}`)
     }
     if (e.id == 'vc:rgrs') {
         SERVER.world.sendMessage(SERVER.world.getDynamicProperty('vc:transmitters') || "[]")
