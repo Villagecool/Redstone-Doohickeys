@@ -15,9 +15,9 @@ SERVER.system.beforeEvents.startup.subscribe(initEvent => {
         onBreak: e=> {
             if (e.block.typeId.includes('vc:redstone_link_')) return
             SERVER.system.runTimeout(()=> { //this needs to be delayed for other repair functions to carry out
-                var b = locfrequencies()
-                delete b[vec3toString(e.block.location)]
-                updateLocfreq(b)
+                //var b = locfrequencies()
+                //delete b[vec3toString(e.block.location)]
+                //updateLocfreq(b)
             },1)
         },
         beforeOnPlayerPlace: e => {
@@ -36,11 +36,13 @@ SERVER.system.beforeEvents.startup.subscribe(initEvent => {
         onPlayerInteract: e => {
             const pos = e.faceLocation
             const face = e.block.permutation.getState('minecraft:block_face')
-            const frequency = tryGetFrecValue(e.block.location)
+            const frequency = tryGetFrecValue(e.block)
             const isTrans = e.block.typeId == "vc:redstone_link_transmitter"
 
             const isTopSlot = (face != 'up' && face != 'down') ? (pos.y > 0.5) : face == 'up' ? (pos.z > 0.5) : (pos.z <= 0.5)
             const isInSquare = face == 'east' || face == 'west' ? (pos.z > 0.35 && pos.z < 0.65) : (pos.x > 0.35 && pos.x < 0.65)
+
+
             if (isInSquare && e.block.permutation.getState('vc:changing')) {
                 //SERVER.world.sendMessage(isTopSlot ? 'Top' : 'Bottom')
                 const item = e.player.getComponent("equippable").getEquipment('Mainhand')
@@ -48,9 +50,11 @@ SERVER.system.beforeEvents.startup.subscribe(initEvent => {
                 if (isTrans) addGlobalStrength(frequency[0], frequency[1], (0 - e.block.permutation.getState('vc:strength'))) //resets old frequency
                 if (isTopSlot) frequency[0] = getItemName(item)
                 else frequency[1] = getItemName(item)
-                var b = locfrequencies()
-                b[vec3toString(e.block.location)] = frequency.join('||')
-                updateLocfreq(b)
+                if (e.block.getComponent('minecraft:dynamic_properties') == undefined) {
+                    e.dimension.runCommand(`setblock ${vec3toString(e.block.location)} air destroy`)
+                    return
+                }
+                e.block.getComponent('minecraft:dynamic_properties').set('vc:frequency', frequency.join('||'))
                 if (isTrans) addGlobalStrength(frequency[0], frequency[1], (e.block.permutation.getState('vc:strength'))) //updated new frequency
                 //console.warn(JSON.stringify(locfrequencies))
 
@@ -87,25 +91,26 @@ SERVER.system.beforeEvents.startup.subscribe(initEvent => {
         onRedstoneUpdate: e => {
             const prevst = e.block.permutation.getState('vc:strength')
             if (e.powerLevel != prevst) {
-                const frequency = tryGetFrecValue(e.block.location)
+                const frequency = tryGetFrecValue(e.block)
                 addGlobalStrength(frequency[0], frequency[1], (e.powerLevel - e.previousPowerLevel))
                 setPermutation(e.block, 'vc:strength', e.powerLevel)
             }
         },
         onBreak: e => {
-            const frequency = tryGetFrecValue(e.block.location)
+            const frequency = tryGetFrecValue(e.block)
             addGlobalStrength(frequency[0], frequency[1], (0 - e.brokenBlockPermutation.getState('vc:strength')))
         }
     });
     initEvent.blockComponentRegistry.registerCustomComponent('vc:redstone_link_reciever', {
         onTick: e => {
-            const frequency = tryGetFrecValue(e.block.location)
-            setPermutation(e.block, 'vc:strength', clamp(getGlobalStrength(frequency[0], frequency[1]), 0, 15))
+            //const frequency = tryGetFrecValue(e.block)
+            //setPermutation(e.block, 'vc:strength', clamp(getGlobalStrength(frequency[0], frequency[1]), 0, 15))
         }
     });
     initEvent.blockComponentRegistry.registerCustomComponent('vc:dimmable_redstone_lamp', {
         onRedstoneUpdate: e => {
-            if (e.powerLevel != e.previousPowerLevel) setPermutation(e.block, 'vc:strength', e.powerLevel)
+            SERVER.world.sendMessage('Yes i do be updated')
+            setPermutation(e.block, 'vc:strength', e.powerLevel)
         }
     });
     initEvent.blockComponentRegistry.registerCustomComponent('vc:redstone_capacitor', {
@@ -172,6 +177,10 @@ SERVER.system.afterEvents.scriptEventReceive.subscribe(e=>{
         SERVER.world.sendMessage(SERVER.world.getDynamicProperty('vc:transmitters') || "[]")
         SERVER.world.setDynamicProperty('vc:transmitters', "[]")
     }
+    if (e.id == 'vc:clearAllFrequencies') {
+        SERVER.world.sendMessage(SERVER.world.getDynamicProperty('vc:locfreq') || "{}")
+        SERVER.world.setDynamicProperty('vc:locfreq', "{}")
+    }
 })
 
 /**
@@ -218,12 +227,12 @@ function getItemName(item) {
 }
 /**
  * Tries to get the frequency of the transmitter at that current location (if applicable), otherwise returns two none values
- * @param {SERVER.Vector3} location 
+ * @param {SERVER.Block} block 
  * @returns {Array<String>}
  */
-function tryGetFrecValue(location) {
+function tryGetFrecValue(block) {
     try {
-        return locfrequencies()[vec3toString(location)].split('||')
+        return block.getComponent('minecraft:dynamic_properties').get('vc:frequency').split('||')
     } catch {
         return ['gui.none', 'gui.none']
     }
