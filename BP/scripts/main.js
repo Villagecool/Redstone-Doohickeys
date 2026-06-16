@@ -105,7 +105,7 @@ SERVER.system.beforeEvents.startup.subscribe(initEvent => {
     });
     initEvent.blockComponentRegistry.registerCustomComponent('vc:dimmable_redstone_lamp', {
         onRedstoneUpdate: e => {
-            if (e.powerLevel != e.previousPowerLevel) setPermutation(e.block, 'vc:strength', e.powerLevel)
+            setPermutation(e.block, 'vc:strength', e.powerLevel)
         }
     });
     initEvent.blockComponentRegistry.registerCustomComponent('vc:redstone_capacitor', {
