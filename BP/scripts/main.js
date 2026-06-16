@@ -109,7 +109,6 @@ SERVER.system.beforeEvents.startup.subscribe(initEvent => {
     });
     initEvent.blockComponentRegistry.registerCustomComponent('vc:dimmable_redstone_lamp', {
         onRedstoneUpdate: e => {
-            SERVER.world.sendMessage('Yes i do be updated')
             setPermutation(e.block, 'vc:strength', e.powerLevel)
         }
     });
